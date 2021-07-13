@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import Header from './Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    //BEM Convention
+    <div className="app">
+
+
+    {/* Header */}
+
+      <Header/>
+
+
+
+    {/* Home */}
+    <h1>check it out! Laurazon has a logo and search bar! </h1>
     </div>
   );
 }
